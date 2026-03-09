@@ -1,9 +1,14 @@
 package Tugas.Minggu_3;
+public class Mahasiswa06 {
 
-public class Mahasiswa06{
-    public String NIM;
-    public String Nama;
-    public String Kelas;
-    public float IPK;
+    public String nim, nama, kelas;
+    public float ipk;
+
+public void cetakInfo() {
+        System.out.println("NIM   : " + nim);
+        System.out.println("NAMA  : " + nama);
+        System.out.println("KELAS : " + kelas);
+        System.out.println("IPK   : " + ipk);
+}
 
 }
