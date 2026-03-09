@@ -9,7 +9,6 @@ public class Mahasiswademo06 {
         for(int i = 0; i < 3; i++){
             arrayOfMahasiswa04[i] = new Mahasiswa06();
 
-
             System.out.println("Masukkan Data Mahasiswa ke-" + (i + 1));
             System.out.println("NIM  : ");
             arrayOfMahasiswa04[i].nim = sc.nextLine();
