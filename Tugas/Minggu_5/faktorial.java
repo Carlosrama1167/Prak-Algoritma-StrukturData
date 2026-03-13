@@ -3,7 +3,7 @@ package Tugas.Minggu_5;
 public class faktorial {
     int faktorialIBF(int n){
         int fakto = 1;
-        for (int i = n; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             fakto = fakto * i;
         }
         return fakto;
