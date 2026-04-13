@@ -7,10 +7,10 @@ public class Mahasiswa06 {
 
     }
     Mahasiswa06(String nim, String nama, String kelas, String ipk){
-        nim = nim;
-        nama = nama;
-        kelas = kelas;
-        ipk = ipk;
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = kelas;
+        this.ipk = ipk;
     }
 
     void tampilInformasi(){

@@ -31,4 +31,16 @@ public class MahasiswaBerprestasi {
             }
         }
     }
+
+    void selectionSort(){
+        for (int i = 0; i < lisMhs.length; i++) {
+            Mahasiswa06 temp = lisMhs[i];
+            int j=i;
+            while (j>0 && Double.parseDouble(lisMhs[j-1].ipk) > Double.parseDouble(temp.ipk)){
+                lisMhs[j] = lisMhs[j-1];
+                j--;
+            }
+            lisMhs[j] = temp;
+        }
+    }
 }
